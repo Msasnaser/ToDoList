@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+.contanier{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 40%;
+    background-color: #eee6e6;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(1, 1, 1, 0.5);
+}
+
+.list h2{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color:black;
+}
+.list .formTasks{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    padding-left: 12px;
+}
+.inputText{
+width: 60%;
+padding: 10px;
+}
+.formTasks button {
+    border: 1px solid black;
+    padding: 20px;
+    align-self: center;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: rgba(65, 59, 59, 0.817);
+  }
+  .yourTask{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 5px;
+    padding: 20px;
+    background-color: #0f0d0d7a;
+    border-radius: 5px;
+  }
+  .endTask{
+    background-color: green;
+  }
